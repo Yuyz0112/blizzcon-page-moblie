@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="GB2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;text/html">
+    <title>2015暴雪嘉年华专题_TG兽吧</title>
+    <meta name="description" content="TG兽吧2015年暴雪嘉年华专题 暴雪嘉年华最新资讯 最快实时报道尽在嘉年华专题">
+    <meta name="keywords" content="暴雪嘉年华|嘉年华新闻|嘉年华资讯|魔兽世界|风暴英雄|暗黑破坏神3|炉石传说|守望先锋|星际争霸2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link href="idangerous.swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="idangerous.swiper.min.js"></script>
+    <script charset="GB2312" src="main.js"></script>
+  </head>
+  <body>
+    <div class="mpage" data-role="page" id="pageone">
+      <div data-role="header" data-position="fixed" class="uc">
+        <a href="http://wow.tgbus.com/" class="home-btn" data-role="button" data-icon="home">首页</a>
+        <h1>嘉年华热点聚焦</h1>
+        <a href="#" data-role="button" data-icon="home" class="nav-btn">导航</a>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#pageone">热点</a></li>
+            <li><a href="#pagetwo">直播</a></li>
+            <li><a href="#pagethree">赛事</a></li>
+            <li><a href="#pagefour">图片</a></li>
+            <li><a href="#pagefive">视频</a></li>
+            <li><a href="#pagesix">评论</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="swiper-container" data-test="ttt">
+        <ul class="swiper-wrapper">【ArticleList(1002,10361,true,0,4,false,false,,0,3,False,0,0,false)】
+          <li class="swiper-slide"><a href="{$ArticleUrl}" target="_blank">{$ArticlePic(0,0)}<h2>{$Title}</h2></a></li>【/ArticleList】
+        </ul>
+      </div>
+      <div class="title"><h2>正在进行</h2></div>
+      <ul class="schedule">
+        <li><p>魔兽竞技场世锦赛小组赛</p></li>
+        <li><p>炉石传说世锦赛暖场表演</p></li>
+        <li><p>星际争霸IIWCS总决赛暖场表演</p></li>
+      </ul>
+      <div class="title"><h2>今日资讯</h2></div>
+      <ul class="news-list">【ArticleList(1002,9945,true,0,5,false,false,,0,3,False,0,0,false)】
+        <li class="news"><div class="pica">{$ArticlePic(0,0)}</div>
+        <a href="{$ArticleUrl}" target="_blank"><h3>{$Title}</h3></a>
+        <p class="detail">{$Intro}</p>
+        <p class="info">{$ArticleClassName}<span class="v-line">|</span><span class="new-date">{$UpdateDate}</span></p></li>【/ArticleList】
+      </ul>
+      <div class="more-btn"><a href="#" data-role="button" data-inline="true" id="morenews" onclick="morelist('.news',5,'.news-list','#morenews','news')">加载更多</a></div>
+      <div data-role="footer" style="width:100%;text-align:center;">
+        <div class="share-group" data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">新浪微博</a>
+          <a href="#" data-role="button">腾讯微博</a>
+          <a href="#" data-role="button"> QQ 空间</a>
+        </div>
+        <a class="share" data-role="button" data-icon="plus">分享</a>
+        <a href="#" class="top-btn" data-role="button" data-icon="arrow-u">回到顶部</a>
+      </div>
+    </div>
+    <div class="mpage" data-role="page" id="pagetwo">
+      <div data-role="header" data-position="fixed" class="uc">
+        <a href="http://wow.tgbus.com/" class="home-btn" data-role="button" data-icon="home">首页</a>
+        <h1>嘉年华赛事直播</h1>
+        <a href="#" data-role="button" data-icon="home" class="nav-btn">导航</a>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#pageone">热点</a></li>
+            <li><a href="#pagetwo">直播</a></li>
+            <li><a href="#pagethree">赛事</a></li>
+            <li><a href="#pagefour">图片</a></li>
+            <li><a href="#pagefive">视频</a></li>
+            <li><a href="#pagesix">评论</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role="content">
+        <div class="stream">
+          <embed width="100%" height="100%" allownetworking="all" allowscriptaccess="always" src="http://staticlive.douyutv.com/common/share/play.swf?room_id=424559" quality="high" bgcolor="#000" wmode="window" allowfullscreen="true" allowFullScreenInteractive="true">
+        </div>
+      </div>
+      <div data-role="footer" style="width:100%;text-align:center;">
+        <div class="share-group" data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">新浪微博</a>
+          <a href="#" data-role="button">腾讯微博</a>
+          <a href="#" data-role="button"> QQ 空间</a>
+        </div>
+        <a class="share" data-role="button" data-icon="plus">分享</a>
+        <a href="#" class="top-btn" data-role="button" data-icon="arrow-u">回到顶部</a>
+      </div>
+    </div>
+    <div class="mpage" data-role="page" id="pagethree">
+      <div data-role="header">
+        <h1>嘉年华对阵图表</h1>
+      </div>
+      <div data-role="content">
+        <p>Building！</p>
+        <a href="#pageone">返回第一页</a>
+      </div>
+      <div data-role="footer">
+        <h1>Footer</h1>
+      </div>
+    </div>
+    <div class="mpage" data-role="page" id="pagefour">
+      <div data-role="header" data-position="fixed" class="uc">
+        <a href="http://wow.tgbus.com/" class="home-btn" data-role="button" data-icon="home">首页</a>
+        <h1>嘉年华图片精选</h1>
+        <a href="#" data-role="button" data-icon="home" class="nav-btn">导航</a>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#pageone">热点</a></li>
+            <li><a href="#pagetwo">直播</a></li>
+            <li><a href="#pagethree">赛事</a></li>
+            <li><a href="#pagefour">图片</a></li>
+            <li><a href="#pagefive">视频</a></li>
+            <li><a href="#pagesix">评论</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role="content">
+        <div class="title"><h2>图片精选</h2></div>
+        <ul class="pic-list">【ArticleList(1002,0,true,2706,4,false,false,,0,3,False,0,0,false)】
+          <li class="pic"><div class="pica">{$ArticlePic(0,0)}</div>
+          <a href="{$ArticleUrl}" target="_blank"><h3>{$Title}</h3></a>
+          <p class="detail">{$Intro}</p>
+          <p class="info">{$ArticleClassName}<span class="v-line">|</span><span class="new-date">{$UpdateDate}</span></p></li>【/ArticleList】
+        </ul>
+        <div class="more-btn"><a href="#" data-role="button" data-inline="true" id="morepic" onclick="morelist('.pic',4,'.pic-list','#morepic','pic')">加载更多</a></div>
+      </div>
+      <div data-role="footer" style="width:100%;text-align:center;">
+        <div class="share-group" data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">新浪微博</a>
+          <a href="#" data-role="button">腾讯微博</a>
+          <a href="#" data-role="button"> QQ 空间</a>
+        </div>
+        <a class="share" data-role="button" data-icon="plus">分享</a>
+        <a href="#" class="top-btn" data-role="button" data-icon="arrow-u">回到顶部</a>
+      </div>
+    </div>
+    <div class="mpage" data-role="page" id="pagefive">
+      <div data-role="header" data-position="fixed" class="uc">
+        <a href="http://wow.tgbus.com/" class="home-btn" data-role="button" data-icon="home">首页</a>
+        <h1>嘉年华精彩视频</h1>
+        <a href="#" data-role="button" data-icon="home" class="nav-btn">导航</a>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#pageone">热点</a></li>
+            <li><a href="#pagetwo">直播</a></li>
+            <li><a href="#pagethree">赛事</a></li>
+            <li><a href="#pagefour">图片</a></li>
+            <li><a href="#pagefive">视频</a></li>
+            <li><a href="#pagesix">评论</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role="content">
+        <div class="title"><h2>热门视频</h2></div>
+        <ul class="video-list">【ArticleList(1002,0,true,2705,4,false,false,,0,3,False,0,0,false)】
+          <li class="video"><div class="pica">{$ArticlePic(0,0)}</div>
+          <a href="{$ArticleUrl}" target="_blank"><h3>{$Title}</h3></a>
+          <p class="detail">{$Intro}</p>
+          <p class="info">{$ArticleClassName}<span class="v-line">|</span><span class="new-date">{$UpdateDate}</span></p></li>【/ArticleList】
+        </ul>
+        <div class="more-btn"><a href="#" data-role="button" data-inline="true" id="morevideo" onclick="morelist('.video',4,'.video-list','#morevideo','video')">加载更多</a></div>
+      </div>
+      <div data-role="footer" style="width:100%;text-align:center;">
+        <div class="share-group" data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">新浪微博</a>
+          <a href="#" data-role="button">腾讯微博</a>
+          <a href="#" data-role="button"> QQ 空间</a>
+        </div>
+        <a class="share" data-role="button" data-icon="plus">分享</a>
+        <a href="#" class="top-btn" data-role="button" data-icon="arrow-u">回到顶部</a>
+      </div>
+    </div>
+    <div class="mpage" data-role="page" id="pagesix">
+      <div data-role="header">
+        <h1>嘉年华对阵图表</h1>
+      </div>
+      <div data-role="content">
+        <p>Building！</p>
+        <a href="#pageone">返回第一页</a>
+      </div>
+      <div data-role="footer">
+        <h1>Footer</h1>
+      </div>
+    </div>
+    <script>
+    /*swiper init*/
+    var mySwiper = new Swiper('.swiper-container', {
+    autoplay: 3000,
+    autoplayDisableOnInteraction: false,
+    loop: true,
+    })
+    </script>
+  </body>
+</html>

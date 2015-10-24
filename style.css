@@ -1,0 +1,28 @@
+/*Default*/
+body { color: #333; font-family: "Microsoft Yahei" }
+a { text-decoration: none }
+ul, li { padding: 0; margin: 0 }
+li { list-style: none; }
+
+/*Custom Ui Icon*/
+.ui-icon-hot:after {background-image: url("");}
+
+/*Page Elements*/
+.ui-content { padding: 0 }
+.ui-navbar { display: none }
+.swiper-container img { width: 100% }
+.swiper-slide { position: relative; text-align: center; }
+.swiper-slide h2 { width: 100%; position: absolute; bottom: 0; background: rgba(0, 0, 0, 0.5); color: #91c6ff; text-shadow: none }
+.title { margin: 1em; background: #e9e9e9; border-left: 4px solid #91c6ff; padding-left: 0.3em }
+.title h2 { margin: 0; color: #91c6ff; text-shadow: none; }
+.schedule, .news-list,.pic-list,.video-list { padding-left: 1em; padding-right: 1em }
+.schedule p:before { content: ">>"; color: #91c6ff; font-weight: bold; margin-right: 0.5em }
+.pica img { width: 100% }
+.news,.pic,.video {border-bottom: 2px solid #91c6ff;margin-bottom: 1em}
+.news h3,.pic h3,.video h3{ width: 100%; text-align: center; }
+.info{font-size: 0.8em}
+.v-line { color: #ccc; margin-left: 1em; margin-right: 1em }
+.more-btn{text-align: center;}
+#more{width: 30%}
+.share-group { display: none }
+.stream{width: 100%;height: 100%}
